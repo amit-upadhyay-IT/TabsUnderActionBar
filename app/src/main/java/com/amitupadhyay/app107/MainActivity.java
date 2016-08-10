@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         viewPagerAdapter.addFragments(new HomeFragment(), "HOME");
         viewPagerAdapter.addFragments(new TopFreeFragment(), "TOP FREE");
         viewPagerAdapter.addFragments(new TopPaidFragment(), "TOP PAID");
-        viewPagerAdapter.addFragments(new AmitUFragment(), "AMIT U");
+        //viewPagerAdapter.addFragments(new AmitUFragment(), "AMIT U");
 
         viewPager.setAdapter(viewPagerAdapter);
         tabLayout.setupWithViewPager(viewPager);
